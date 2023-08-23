@@ -41,11 +41,10 @@ a{
     text-align: center;
     width: 500px;
 }
-/* p { 
+p { 
     color: rgb(51, 33, 3);
-    background-color: bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
+    font-family: "roboto";
+    text-align: center;
 }
 
 
@@ -55,9 +54,8 @@ img {
     width: 70%;
 }
 
-/* h3 { 
-    color: rgb(241, 236, 222);
-    background-color: rgb(71, 59, 3);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h3 { 
+    color: rgb(34, 26, 5);
+    font-family: "roboto";
     text-align: center;
 }

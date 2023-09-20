@@ -4,9 +4,8 @@ body{
     font-family:'Roboto', sans-serif;
     color: black;
 }
-.bg-body-tertiary{
-    width: 100%;
-}
+
+/* NAVBAR */
 
 #navbarNavDropdown{
     margin-right: 15%;
@@ -33,10 +32,12 @@ li.nav-item{
     color: rgb(109, 97, 80);
 }
 
+/* ICONO */
+
 .icono{
     width: 250px;
 }
-
+/* FOOTER */
 footer{
     background-color: rgb(250, 250, 250);
     color: rgb(177, 149, 119);
@@ -51,6 +52,7 @@ footer{
     width: 100%;
 }
 
+/* FORMULARIO */
 .btn-submit{
     color: aliceblue;
     background-color: rgb(177, 149, 119);
@@ -59,15 +61,6 @@ footer{
 .btn-submit:hover{
     background-color: rgb(240, 226, 167);
     color: rgb(177, 149, 119) ;
-}
-
-.cards{
-    display: flex;
-    margin-bottom: 5rem;
-}
-
-.card{
-    margin: 1rem;
 }
 
 
@@ -99,3 +92,13 @@ div.col-4{
     margin-top: 10px;
 }
 
+/* CARDS */
+
+.cards{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.card{
+    margin: 1rem;
+}

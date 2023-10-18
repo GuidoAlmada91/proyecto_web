@@ -1,0 +1,42 @@
+.btn-submit{
+    color: aliceblue;
+    background-color: rgb(177, 149, 119);
+}
+
+.btn-submit:hover{
+    background-color: rgb(240, 226, 167);
+    color: rgb(177, 149, 119) ;
+}
+
+
+.contenedor-boton{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color:rgb(177, 149, 119) ;
+    border-color: rgb(231, 231, 231);
+}
+
+.btn-primary:hover{
+    background-color: rgb(224, 204, 150);
+    border-color: rgb(224, 204, 150);;
+}
+
+div.col-4{
+    display: block;}
+
+.formulario{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-label{
+    color: rgb(158, 137, 77);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.row-form{
+    margin-top: 5px;
+}

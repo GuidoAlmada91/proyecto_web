@@ -1,0 +1,55 @@
+.bg-body-tertiary{
+    width: 100%;
+}
+
+#navbarNavDropdown{
+    background-color:  rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+
+    margin-right: 15%;
+    justify-content: right;
+    position: relative; /* Añade posición relativa al menú hamburguesa */
+    z-index: 999;
+
+}
+
+#navbarNavDropdown.show {
+    top: 10px; /* Ajusta el valor según la distancia vertical deseada */
+}
+
+.navbar{
+    height: 5rem;
+    width: 100%;
+}
+nav{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-link {
+    color: rgb(177, 149, 119);
+}
+.nav-link:hover {
+    color: rgb(109, 97, 80);
+    animation: puff-in-center 0.4s cubic-bezier(0.7, 2, 0.745, 0.715) both; }
+  
+  .icono {
+    width: 250px;
+      } 
+  
+  .icono:hover {
+    animation: puff-in-center 0.3s cubic-bezier(0.47, 0, 0.785, 0.715) both; }
+  
+  @keyframes puff-in-center {
+    0% {
+      transform: scale(2);
+      filter: blur(3px);
+      opacity: 0; }
+    80% {
+      transform: scale(1);
+      filter: blur(0);
+      opacity: 1; } }
+      

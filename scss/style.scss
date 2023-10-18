@@ -1,0 +1,23 @@
+
+
+//utilidades
+
+@import "./utilidades/var";
+@import "./utilidades/mixins";
+
+//global
+@import "./global/reset";
+
+//componentes
+
+@import "./componentes/nav";
+@import "./componentes/footer";
+
+
+//vistas
+@import "./vistas/inicio";
+@import "./vistas/agenda";
+@import "./vistas/biografia";
+@import "./vistas/contacto";
+@import "./vistas/discografia";
+

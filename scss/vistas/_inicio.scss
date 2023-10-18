@@ -1,0 +1,22 @@
+.cards {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila */
+    margin-bottom: 5rem;
+  }
+  
+  .card {
+    margin: 1rem;
+    flex: 1; /* Distribuye el espacio disponible entre las tarjetas */
+    max-width: calc(33.333% - 2rem); /* Ajusta el ancho máximo de las tarjetas para que haya tres en una fila en pantallas más grandes */
+  }
+  @media screen and (max-width: 768px) {
+    .cards {
+      flex-direction: column; /* Cambia la dirección de flexbox a column en pantallas más pequeñas */
+    }
+  
+    .card {
+      max-width: none; /* Elimina el ancho máximo en pantallas más pequeñas */
+      margin: 0.5rem 0; /* Añade un pequeño margen entre las tarjetas en la vista móvil */
+    }
+  }

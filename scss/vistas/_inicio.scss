@@ -10,6 +10,7 @@
     flex: 1; /* Distribuye el espacio disponible entre las tarjetas */
     max-width: calc(33.333% - 2rem); /* Ajusta el ancho máximo de las tarjetas para que haya tres en una fila en pantallas más grandes */
   }
+  
   @media screen and (max-width: 768px) {
     .cards {
       flex-direction: column; /* Cambia la dirección de flexbox a column en pantallas más pequeñas */
@@ -20,3 +21,16 @@
       margin: 0.5rem 0; /* Añade un pequeño margen entre las tarjetas en la vista móvil */
     }
   }
+
+  @-webkit-keyframes scale-in-hor-center{0%{-webkit-transform:scaleX(0);transform:scaleX(0);opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);opacity:1}}@keyframes scale-in-hor-center{0%{-webkit-transform:scaleX(0);transform:scaleX(0);opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);opacity:1}}
+  .card{-webkit-animation:scale-in-hor-center .20s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-hor-center .5s cubic-bezier(.25,.46,.45,.94) both}
+
+  h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(82, 69, 26);
+    font-family: "roboto";
+    -webkit-animation:tracking-in-contract 3s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract 3s cubic-bezier(.215,.61,.355,1.000) both
+  }
+
+  @-webkit-keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
